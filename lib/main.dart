@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_training_apps/fitness%20magazine/screens/homepage.dart';
 import 'package:flutter_training_apps/xylophone/xylophone.dart';
 
 void main() {
@@ -10,6 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Xylophone();
+    return HomePage();
   }
 }
